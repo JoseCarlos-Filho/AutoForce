@@ -1,0 +1,13 @@
+INSTALADO SASS DE FORMA GOLBAL
+npm install -g sass
+
+Realizando o pré-procesamento de SASS para CSS.
+
+para gerar um arquivo compilado de SASS para CSS após salvar as alterações 
+no projeto, executar a seguinte linha de comando no terminal:
+Observação: o terminal tem que estar com a pasta no caminho do projeto.
+ex: D:\Projetos_WEB\Projeto_SASS>
+comando: sass --watch assets/Sass/styles.sass:assets/css/styles.css
+
+repare que o aquivo css é criado neste caminho: assets/css/styles.css que já se encontra
+na página index.html: <link rel="stylesheet" href="css/styles.css">
