@@ -144,10 +144,61 @@
 }
 .containertop-infocar {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
-.containertop-infocar__fichatechnical1 {
+.containertop-infocar h1 {
+  margin-bottom: 1rem;
+}
+.containertop .fichatecnica {
   display: flex;
+}
+.containertop__ficha1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+}
+.containertop__ficha1 .consumo {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.containertop__ficha1 .consumo img {
+  padding-right: 1rem;
+}
+.containertop__ficha1 .consumo h5 {
+  letter-spacing: 1px;
+}
+.containertop__ficha1 .potencia {
+  display: flex;
+}
+.containertop__ficha1 .potencia img {
+  padding-right: 1rem;
+}
+.containertop__ficha1 .potencia h5 {
+  letter-spacing: 1px;
+}
+.containertop__ficha2 {
+  display: flex;
+  flex-direction: column;
+}
+.containertop__ficha2 .cilindrada {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.containertop__ficha2 .cilindrada img {
+  padding-right: 1rem;
+}
+.containertop__ficha2 .cilindrada h5 {
+  letter-spacing: 1px;
+}
+.containertop__ficha2 .velocidade {
+  display: flex;
+}
+.containertop__ficha2 .velocidade img {
+  padding-right: 1rem;
+}
+.containertop__ficha2 .velocidade h5 {
+  letter-spacing: 1px;
 }
 
 * {
