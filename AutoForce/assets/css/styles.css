@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url(//db.onlinewebfonts.com/c/f4a6fefc7bae496fff97876be7d44802?family=Citroen);
+@import url(//db.onlinewebfonts.com/c/f4a6fefc7bae496fff97876be7d44802?family=Citroen);
 /* Variaveis de Cores */
 /* Variaveis Cores dos Botões */
 /* Fontes link */
@@ -288,17 +290,129 @@
   background: #E1E1E1;
 }
 
+.container-midletitle {
+  width: 363px;
+  height: 33px;
+  margin: 0 0 2rem 10rem;
+  display: flex;
+  justify-content: left;
+}
+.container-midletitle h1 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Open sans;
+  color: #000000;
+}
+
 .container-midle {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.artico-bottom {
+  height: 5rem;
+  width: 75rem;
+  margin: auto;
+}
+
+.footer {
+  width: 100%;
+  height: 386px;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
+}
+.footer__container {
+  width: 1110.7px;
+  height: 294px;
+}
+.footer__container__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.footer__container__social-midias {
+  display: flex;
+  align-items: center;
+}
+.footer__container__social-midias h1 {
+  font-family: "Citroen";
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-right: 2rem;
+}
+.footer__container__social-midias img {
+  margin-right: 1rem;
+}
+.footer__container__descricao {
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.footer__container__razaosocial {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.footer__container__razaosocial h6 {
+  color: #FFFFFF;
+  padding-right: 1rem;
+}
+.footer__container__razaosocial p {
+  color: #FFFFFF;
+}
+.footer__container__cnpj {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.footer__container__cnpj h6 {
+  color: #FFFFFF;
+  padding-right: 1rem;
+}
+.footer__container__cnpj p {
+  color: #FFFFFF;
+}
+.footer__container__endereco {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 0px;
+}
+.footer__container__endereco h6 {
+  color: #FFFFFF;
+  padding-right: 1rem;
+}
+.footer__container__endereco p {
+  color: #FFFFFF;
+}
+.footer__container__botton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.footer__container__botton p {
+  color: #FFFFFF;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.container-main {
+  width: 100vw;
 }
 
 /*# sourceMappingURL=styles.css.map */
