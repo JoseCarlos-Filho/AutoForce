@@ -1,9 +1,31 @@
 @use 'variables'
 
+.botaotoppage
+    position: fixed
+    left: 84%
+    top: 43%
+    cursor: pointer   
+
+    &__button
+        height: 30px
+        width: 30px
+        background: variables.$button-color-nav
+        border-radius: 50px
+        display: flex
+        align-items: center
+        justify-content: center
+
+        img
+            background: variables.$button-color-nav
+
+
+
 .footer
     width: 100%
     height: 386px
+    margin-top: 3rem
     background: variables.$footer-color
+    
     display: flex
     align-items: center
     justify-content: center
@@ -46,11 +68,17 @@
             // margin: 1rem 0
             margin-top: 10px
 
-            h6
+            h4
                 color: variables.$font-footer
                 padding-right: 1rem
+                font-weight: 700
+                font-size: 16px
+                font-family: variables.$font-ubuntu
             p
                 color: variables.$font-footer
+                font-weight: 400
+                font-size: 16px
+                font-family: variables.$font-ubuntu
         
         &__cnpj
             display: flex
@@ -58,11 +86,17 @@
             justify-content: flex-start
             margin-top: 10px
 
-            h6
+            h4
                 color: variables.$font-footer
                 padding-right: 1rem
+                font-weight: 700
+                font-size: 16px
+                font-family: variables.$font-ubuntu
             p
                 color: variables.$font-footer
+                font-weight: 400
+                font-size: 16px
+                font-family: variables.$font-ubuntu
 
         &__endereco
             display: flex
@@ -70,16 +104,37 @@
             justify-content: flex-start
             margin: 10px 0px
 
-            h6
+            h4
                 color: variables.$font-footer
                 padding-right: 1rem
+                font-weight: 700
+                font-size: 16px
+                font-family: variables.$font-ubuntu
             p
                 color: variables.$font-footer
+                font-weight: 400
+                font-size: 16px
+                font-family: variables.$font-ubuntu
+            
+            a
+                color: variables.$font-footer
+                font-weight: 400
+                font-size: 16px
+                font-family: variables.$font-ubuntu
+                padding-left: 1rem
         
         &__botton
             display: flex
             justify-content: space-between
-            margin-top: 1rem
-            
+            margin: 3rem 0
+
             p
-                color: variables.$font-footer  
+                color: variables.$font-footer
+                font-weight: 400
+                font-size: 12px
+                font-family: variables.$font-ubuntu  
+            
+            a
+                color: variables.$font-footer
+
+
