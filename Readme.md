@@ -220,7 +220,7 @@ function newPopUp() {
 
 ### Deploy da Aplicação
 
-link deploy DEALER: <a href="">Dealer Page</a>
+link deploy DEALER: <a href="https://desafio-autoforce-jose-carlos.netlify.app/">Dealer Page</a>
 
 Codifique a seguinte interface: <a href="https://www.figma.com/file/mEuuuja11kYw9M9swY69wl/Desafio-Genius?node-id=34%3A42">figma</a>
 
