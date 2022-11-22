@@ -114,19 +114,19 @@
   color: #999999;
 }
 
-.container-top {
+.containertop {
   height: 35rem;
   width: 100%;
   background-color: #FFFFFF;
 }
-.container-top__title {
+.containertop-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 1.5rem;
   margin-left: 10rem;
 }
-.container-top__title h1 {
+.containertop-title h1 {
   font-family: Open sans;
   font-weight: 400;
   font-size: 32px;
@@ -136,11 +136,18 @@
   border-left: 5px solid #E5E5E5;
   border-left-color: #E5E5E5;
 }
-.container-top__title p {
+.containertop-title p {
   font-family: Open sans;
   font-weight: 400;
   font-size: 24px;
   color: #666666;
+}
+.containertop-infocar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.containertop-infocar__fichatechnical1 {
+  display: flex;
 }
 
 * {
