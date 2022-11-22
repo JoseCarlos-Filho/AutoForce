@@ -1,0 +1,43 @@
+@use 'variables'
+
+.container-descricao
+    width: 75rem
+    height: 15.25rem
+
+    display: flex
+    justify-content: center
+    
+    margin: 0 auto 2rem auto
+
+    &__global
+        width: 100%
+        height: 100%
+        display: flex
+        justify-content: space-between
+
+    &__title
+        width: 440px
+        height: 240px
+        font-weight: 700
+        font-size: 32px
+        color: variables.$font-title-artigo
+        font-family: variables.$font-opensans
+
+    &__content
+        width: 540px
+        height: 244px
+        font-weight: 400
+        font-size: 16px
+        font-family: variables.$font-opensans
+        color: variables.$font-title-artigo
+
+.line
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 2.5rem
+    
+    .linemidle
+        border: 1px solid variables.$linemidle-color
+        width: 75rem
+        background: variables.$linemidle-color

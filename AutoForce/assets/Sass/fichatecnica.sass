@@ -1,7 +1,7 @@
 @use 'variables'
 
 .containertop
-    height: 35rem
+    height: 30rem
     width: 100%
 
     background-color: variables.$primary-color
@@ -34,8 +34,14 @@
         align-items: center
         justify-content: space-evenly
 
+    &-global
+        margin-bottom: 5rem
+
         h1
-            margin-bottom: 1rem
+            font-weight: 700
+            font-size: 24px
+            font-family: variables.$font-opensans
+            margin-bottom: 1.5rem
     
     .fichatecnica
         display: flex
@@ -51,15 +57,23 @@
             margin-bottom: 2rem
             img
                 padding-right: 1rem
+                margin-top: .5rem
             h5
+                font-weight: 700
+                font-size: 16px
+                font-family: variables.$font-opensans
                 letter-spacing: 1px
         
         .potencia
             display: flex
             img
                 padding-right: 1rem
+                margin-top: .5rem
             h5
                 letter-spacing: 1px
+                font-weight: 700
+                font-size: 16px
+                font-family: variables.$font-opensans
 
     &__ficha2
         display: flex
@@ -69,13 +83,42 @@
             margin-bottom: 2rem
             img
                 padding-right: 1rem
+                margin-top: .5rem
             h5
                 letter-spacing: 1px
+                font-weight: 700
+                font-size: 16px
+                font-family: variables.$font-opensans
         
         .velocidade
             display: flex
             img
                 padding-right: 1rem
+                margin-top: .5rem
             h5
                 letter-spacing: 1px
+                font-weight: 700
+                font-size: 16px
+                font-family: variables.$font-opensans
 
+    .btn-interesse
+        height: 2.5rem
+        width: 12.8rem
+
+        margin-top: 1.7rem
+        border: none
+        border-radius: 50px
+        background: variables.$botao-color-interesse
+        color: variables.$font-bottom-interesse
+    
+    .btn-interesse:hover
+        background: variables.$botao-hover-interesse
+.line
+    display: flex
+    align-items: center
+    justify-content: center
+
+    &-top
+        width: 75rem
+        border: 2px solid variables.$linetop-color
+        background: variables.$linetop-color

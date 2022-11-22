@@ -115,7 +115,7 @@
 }
 
 .containertop {
-  height: 35rem;
+  height: 30rem;
   width: 100%;
   background-color: #FFFFFF;
 }
@@ -147,8 +147,14 @@
   align-items: center;
   justify-content: space-evenly;
 }
-.containertop-infocar h1 {
-  margin-bottom: 1rem;
+.containertop-global {
+  margin-bottom: 5rem;
+}
+.containertop-global h1 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Open sans;
+  margin-bottom: 1.5rem;
 }
 .containertop .fichatecnica {
   display: flex;
@@ -164,8 +170,12 @@
 }
 .containertop__ficha1 .consumo img {
   padding-right: 1rem;
+  margin-top: 0.5rem;
 }
 .containertop__ficha1 .consumo h5 {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Open sans;
   letter-spacing: 1px;
 }
 .containertop__ficha1 .potencia {
@@ -173,9 +183,13 @@
 }
 .containertop__ficha1 .potencia img {
   padding-right: 1rem;
+  margin-top: 0.5rem;
 }
 .containertop__ficha1 .potencia h5 {
   letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Open sans;
 }
 .containertop__ficha2 {
   display: flex;
@@ -187,18 +201,98 @@
 }
 .containertop__ficha2 .cilindrada img {
   padding-right: 1rem;
+  margin-top: 0.5rem;
 }
 .containertop__ficha2 .cilindrada h5 {
   letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Open sans;
 }
 .containertop__ficha2 .velocidade {
   display: flex;
 }
 .containertop__ficha2 .velocidade img {
   padding-right: 1rem;
+  margin-top: 0.5rem;
 }
 .containertop__ficha2 .velocidade h5 {
   letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Open sans;
+}
+.containertop .btn-interesse {
+  height: 2.5rem;
+  width: 12.8rem;
+  margin-top: 1.7rem;
+  border: none;
+  border-radius: 50px;
+  background: #3754E2;
+  color: #FFFFFF;
+}
+.containertop .btn-interesse:hover {
+  background: #304ACB;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line-top {
+  width: 75rem;
+  border: 2px solid #333333;
+  background: #333333;
+}
+
+.container-descricao {
+  width: 75rem;
+  height: 15.25rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 2rem auto;
+}
+.container-descricao__global {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-descricao__title {
+  width: 440px;
+  height: 240px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+  font-family: Open sans;
+}
+.container-descricao__content {
+  width: 540px;
+  height: 244px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Open sans;
+  color: #000000;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.line .linemidle {
+  border: 1px solid #E1E1E1;
+  width: 75rem;
+  background: #E1E1E1;
+}
+
+.container-midle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 * {
