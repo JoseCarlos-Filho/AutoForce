@@ -54,25 +54,11 @@
         .consumo
             display: flex
             margin-bottom: 2rem
-            img
-                padding-right: 1rem
-                margin-top: .5rem
-            h5
-                font-weight: 700
-                font-size: 16px
-                font-family: variables.$font-opensans
-                letter-spacing: 1px
+            @include mixins.img-h5-fichatecnica
         
         .potencia
             display: flex
-            img
-                padding-right: 1rem
-                margin-top: .5rem
-            h5
-                letter-spacing: 1px
-                font-weight: 700
-                font-size: 16px
-                font-family: variables.$font-opensans
+            @include mixins.img-h5-fichatecnica
 
     &__ficha2
         display: flex
@@ -80,25 +66,11 @@
         .cilindrada
             display: flex
             margin-bottom: 2rem
-            img
-                padding-right: 1rem
-                margin-top: .5rem
-            h5
-                letter-spacing: 1px
-                font-weight: 700
-                font-size: 16px
-                font-family: variables.$font-opensans
+            @include mixins.img-h5-fichatecnica
         
         .velocidade
             display: flex
-            img
-                padding-right: 1rem
-                margin-top: .5rem
-            h5
-                letter-spacing: 1px
-                font-weight: 700
-                font-size: 16px
-                font-family: variables.$font-opensans
+            @include mixins.img-h5-fichatecnica
 
     .btn-interesse
         height: 2.5rem
@@ -113,9 +85,8 @@
     .btn-interesse:hover
         background: variables.$botao-hover-interesse
 .line
-    display: flex
-    align-items: center
-    justify-content: center
+    @include mixins.flex-center
+    
 
     &-top
         width: 75rem

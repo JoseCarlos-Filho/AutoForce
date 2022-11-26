@@ -176,10 +176,10 @@
   margin-top: 0.5rem;
 }
 .containertop__ficha1 .consumo h5 {
+  letter-spacing: 1px;
   font-weight: 700;
   font-size: 16px;
   font-family: Open sans;
-  letter-spacing: 1px;
 }
 .containertop__ficha1 .potencia {
   display: flex;

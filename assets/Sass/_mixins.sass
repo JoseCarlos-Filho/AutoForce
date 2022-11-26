@@ -16,10 +16,25 @@
     align-items: center
     justify-content: space-around
 
+@mixin flex-center-spacebetween
+    display: flex
+    align-items: center
+    justify-content: space-between
+
 @mixin styles-paragraph-top
     font-family: variables.$font-opensans
     font-weight: 400
     font-size: 12px
+
+@mixin img-h5-fichatecnica
+    img
+        padding-right: 1rem
+        margin-top: .5rem
+    h5
+        letter-spacing: 1px
+        font-weight: 700
+        font-size: 16px
+        font-family: variables.$font-opensans
 
 @mixin font-color-midle
     color: variables.$font-title-artigo
