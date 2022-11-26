@@ -1,3 +1,4 @@
+@use './_mixins'
 @use 'variables'
 
 .container-artigo
@@ -5,9 +6,7 @@
     width: 100%
     background: variables.$secondary-color
 
-    display: flex
-    align-items: center
-    justify-content: space-around
+    @include mixins.flex-center-spacearound
 
 
     &__info
@@ -16,9 +15,7 @@
 
         p
             margin-bottom: .2rem
-            font-family: variables.$font-opensans
-            font-weight: 400
-            font-size: 12px
+            @include mixins.styles-paragraph-top
             color: variables.$link-color
         p a:hover
             color: variables.$link-color-hover
@@ -32,9 +29,7 @@
         margin-top: 2rem
 
         p
-            font-family: variables.$font-opensans
-            font-weight: 400
-            font-size: 12px
+            @include mixins.styles-paragraph-top
             color: variables.$link-color
         p a:hover
             color: variables.$link-color-hover

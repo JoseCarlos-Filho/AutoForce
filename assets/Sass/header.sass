@@ -1,4 +1,4 @@
-@use 'mixin'
+@use './mixins'
 @use 'variables'
 
 .container-header
@@ -16,7 +16,7 @@
     justify-content: space-between
 
     &__logos
-        @include mixin.flex-center
+        @include mixins.flex-center
         .logoDealer
             width: 162px
             height: 30px
@@ -30,7 +30,7 @@
             padding-left: 1rem
     
     &__button
-        @include mixin.flex-center
+        @include mixins.flex-center
         
         .btn-ligue
             width: 160px
@@ -45,7 +45,7 @@
             font-family: open sans
             color: variables.$primary-color
             
-            @include mixin.flex-center-evenly
+            @include mixins.flex-center-evenly
         
         .btn-ligue:hover
             background: variables.$botao-hover-tel
@@ -64,7 +64,7 @@
             font-family: open sans
             color: variables.$primary-color
             
-            @include mixin.flex-center-evenly
+            @include mixins.flex-center-evenly
         
         .btn-whats:hover
             background: variables.$botao-hover-whats

@@ -1,3 +1,4 @@
+@use './_mixins'
 @use 'variables'
 
 .containertop
@@ -30,9 +31,7 @@
             color: variables.$link-color
     
     &-infocar
-        display: flex
-        align-items: center
-        justify-content: space-evenly
+        @include mixins.flex-center-evenly
 
     &-global
         margin-bottom: 5rem

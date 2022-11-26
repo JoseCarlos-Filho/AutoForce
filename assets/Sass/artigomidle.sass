@@ -1,3 +1,4 @@
+@use './_mixins'
 @use 'variables'
 
 .container-descricao
@@ -20,21 +21,17 @@
         height: 240px
         font-weight: 700
         font-size: 32px
-        color: variables.$font-title-artigo
-        font-family: variables.$font-opensans
+        @include mixins.font-color-midle
 
     &__content
         width: 540px
         height: 244px
         font-weight: 400
         font-size: 16px
-        font-family: variables.$font-opensans
-        color: variables.$font-title-artigo
+        @include mixins.font-color-midle
 
 .line
-    display: flex
-    align-items: center
-    justify-content: center
+    @include mixins.flex-center
     margin-bottom: 2.5rem
     
     .linemidle

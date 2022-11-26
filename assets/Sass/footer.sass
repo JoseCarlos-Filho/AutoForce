@@ -1,3 +1,4 @@
+@use './_mixins'
 @use 'variables'
 
 
@@ -6,15 +7,14 @@
     left: 84%
     top: 43%
     cursor: pointer 
+    z-index: 3
 
     &__button
         height: 30px
         width: 30px
         background: variables.$button-color-nav
         border-radius: 50px
-        display: flex
-        align-items: center
-        justify-content: center
+        @include mixins.flex-center
 
         img
             background: variables.$button-color-nav
@@ -26,9 +26,7 @@
     margin-top: 3rem
     background: variables.$footer-color
     
-    display: flex
-    align-items: center
-    justify-content: center
+    @include mixins.flex-center
     flex-direction: column
 
     &__container
@@ -65,7 +63,6 @@
             display: flex
             align-items: center
             justify-content: flex-start
-            // margin: 1rem 0
             margin-top: 10px
 
             h4

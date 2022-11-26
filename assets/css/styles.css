@@ -19,8 +19,8 @@
 }
 .container-header__logos {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .container-header__logos .logoDealer {
   width: 162px;
@@ -148,6 +148,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 .containertop-global {
   margin-bottom: 5rem;
@@ -274,8 +275,8 @@
   height: 244px;
   font-weight: 400;
   font-size: 16px;
-  font-family: Open sans;
   color: #000000;
+  font-family: Open sans;
 }
 
 .line {
@@ -322,6 +323,7 @@
   left: 84%;
   top: 43%;
   cursor: pointer;
+  z-index: 3;
 }
 .botaotoppage__button {
   height: 30px;
@@ -460,7 +462,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 .container-main {
